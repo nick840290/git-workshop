@@ -6,12 +6,26 @@
 
 2.git config --list 確認內容
 
-3.git alias 加指令
+3.git alias 新增指令
 
 ## git
 
-1.merge 前要先回 main
+1.設定環境
 
+git config --global user.name "ashleylai58"
+git config --global user.email "ashleylai58@gmail.com"
+
+2.merge 前要先回 main
+
+3.查看提交紀錄
+
+git log
+
+4.針對已經加入過的檔案，可以直接用以下指令提交
+
+git ci -am "xxxxx"
+
+5.
 
 
 # 12/25-26 上課心得
